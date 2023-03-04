@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=100">
+    <title>Albert Fashion </title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-cart"></i> AlbertShop </a>
+
+        <nav class="navbar">
+            <a href="#home">Beranda</a>
+            <a href="#products">Produk</a>
+            <a href="#featured">Fitur</a>
+            <a href="#review">Testimonial</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="cari disini..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background:url(image/banner1.jpg) no-repeat">
+                    <div class="content">
+                        <span>Diskon Sampai 50%</span>
+                        <h3>Pakaian wanita</h3>
+                        <a href="#" class="btn">Pesan Sekarang</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background:url(image/banner2.jpg) no-repeat">
+                    <div class="content">
+                        <span>Diskon Sampai 50%</span>
+                        <h3>Pakaian Pria</h3>
+                        <a href="#" class="btn">Pesan Sekarang</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background:url(image/banner3.jpg) no-repeat">
+                    <div class="content">
+                        <span>upto 50% off</span>
+                        <h3>Pakaian Anak-Anak</h3>
+                        <a href="#" class="btn">Pesan Sekarang</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- banner section starts  -->
+
+    <section class="banner-container">
+
+        <div class="banner">
+            <img src="image/shop_banner_img1.jpg" alt="">
+            <div class="content">
+                <span>Produk Spesial</span>
+                <h3>Diskon Sampai 50%</h3>
+                <a href="#" class="btn">Pesan Sekarang</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="image/shop_banner_img2.jpg" alt="">
+            <div class="content">
+                <span>Produk Spesial</span>
+                <h3>Diskon Sampai 50%</h3>
+                <a href="#" class="btn">Pesan Sekarang</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- banner section ends -->
+
+    <!-- products section starts  -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> produk<span>exclusive</span> </h1>
+
+        <div class="filter-buttons">
+            <div class="buttons active" data-filter="all">semua</div>
+            <div class="buttons" data-filter="arrivals">Terbaru</div>
+            <div class="buttons" data-filter="featured">featured</div>
+            <div class="buttons" data-filter="special">Produk special</div>
+            <div class="buttons" data-filter="seller">best seller</div>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box" data-item="featured">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>gaun wanita</h3>
+                    <div class="price">
+                        <div class="amount">Rp 100k</div>
+                        <div class="cut">Rp 120k</div>
+                        <div class="offer">20% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-item="special">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Jas Pria</h3>
+                    <div class="price">
+                        <div class="amount">Rp 150k</div>
+                        <div class="cut">Rp 175k</div>
+                        <div class="offer">25% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(35)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-item="seller">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pakaian wanita</h3>
+                    <div class="price">
+                        <div class="amount">Rp 90k</div>
+                        <div class="cut">Rp 100k</div>
+                        <div class="offer">10% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(40)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-item="arrivals">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pakaian Anak</h3>
+                    <div class="price">
+                        <div class="amount">Rp 150k</div>
+                        <div class="cut">Rp 100k</div>
+                        <div class="offer">75% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(20)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-item="featured">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pakaian wanita</h3>
+                    <div class="price">
+                        <div class="amount">Rp 150k</div>
+                        <div class="cut">Rp 100k</div>
+                        <div class="offer">30% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(28)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-item="arrivals">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kemeja Pria</h3>
+                    <div class="price">
+                        <div class="amount">Rp 100k</div>
+                        <div class="cut">Rp 120k</div>
+                        <div class="offer">20% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(57)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-item="special">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pakaian wanita</h3>
+                    <div class="price">
+                        <div class="amount">Rp 100k</div>
+                        <div class="cut">Rp 150k</div>
+                        <div class="offer">35% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(16)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-item="seller">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pakaian Pria</h3>
+                    <div class="price">
+                        <div class="amount">Rp 150k</div>
+                        <div class="cut">Rp 200k</div>
+                        <div class="offer">25% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(80)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-item="seller">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pakaian wanita</h3>
+                    <div class="price">
+                        <div class="amount">Rp 100k</div>
+                        <div class="cut">Rp 150k</div>
+                        <div class="offer">33% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(51)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-item="featured">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img10.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pakaian Pria</h3>
+                    <div class="price">
+                        <div class="amount">Rp 100k</div>
+                        <div class="cut">Rp 120k</div>
+                        <div class="offer">10% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(54)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-item="special">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img11.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pakaian wanita</h3>
+                    <div class="price">
+                        <div class="amount">Rp 100k</div>
+                        <div class="cut">Rp 150k</div>
+                        <div class="offer">25% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(33)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-item="seller">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img12.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>pakaian wanita</h3>
+                    <div class="price">
+                        <div class="amount">Rp 100k</div>
+                        <div class="cut">Rp 150k</div>
+                        <div class="offer">25% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(12)</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- products section ends -->
+
+    <!-- deal section starts  -->
+
+    <section class="deal">
+
+        <div class="image">
+            <img src="image/tranding_img.png" alt="">
+        </div>
+
+        <div class="content">
+            <span>Musim Trending Terbaru!</span>
+            <h3>Koleksi musim Panas</h3>
+            <p>Diskon besar sampai 50%</p>
+            <a href="#" class="btn">Pesan Sekarang</a>
+        </div>
+
+    </section>
+
+    <!-- deal section ends -->
+
+
+    <!-- reviews section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> Review <span>Pelanggan</span> </h1>
+
+        <div class="swiper review-slide">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <p>disini banyak sekali produk yang ditawarkan saya jadi suka</p>
+                    <div class="user">
+                        <img src="image/pic-1.png" alt="">
+                        <div class="info">
+                            <h3>yohan liebert</h3>
+                            <span>Pelanggan senang</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>wahhhhh produk disini kualitasnya sangatlah bagus , saya suka seali</p>
+                    <div class="user">
+                        <img src="image/pic-2.png" alt="">
+                        <div class="info">
+                            <h3>anna liebert</h3>
+                            <span>Pelanggan senang</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>belanja disini sangatlah nyaman dan aman wawww</p>
+                    <div class="user">
+                        <img src="image/pic-3.png" alt="">
+                        <div class="info">
+                            <h3>albert laudza</h3>
+                            <span>Pelanggan senang</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>disini saya menemukan barang yang saya suka, produknya banyak</p>
+                    <div class="user">
+                        <img src="image/pic-4.png" alt="">
+                        <div class="info">
+                            <h3>linna</h3>
+                            <span>Pelanggan senang</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>pruduk yang ditawarkan sangatlah bagus bagus dan menaik </p>
+                    <div class="user">
+                        <img src="image/pic-5.png" alt="">
+                        <div class="info">
+                            <h3>febri agatha</h3>
+                            <span>Pelanggan senang</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>sangat menarik dan produk bagus dan terpervaya</p>
+                    <div class="user">
+                        <img src="image/pic-6.png" alt="">
+                        <div class="info">
+                            <h3>elaina chan</h3>
+                            <span>Pelanggan senang</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- reviews section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>Kontak</span> kami </h1>
+
+        <div class="icons-container">
+
+            <div class="icons">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>alamat</h3>
+                <p>padang panajang</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>email</h3>
+                <p>albert@gmail.com</p>
+                <p>alber@gmail.com</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>phone</h3>
+                <p>+6244335223</p>
+                <p>+6212223333</p>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <form action="">
+                <h3>pesan anda</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="your name">
+                    <input type="email" placeholder="your email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="your number">
+                    <input type="text" placeholder="your subject">
+                </div>
+                <textarea placeholder="your message" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1633431163028!5m2!1sen!2sin"
+                allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>tentang kami</h3>
+                <p>Hai saya Albert Laudza Dan Saya adalah Ownernya!</p>
+            </div>
+
+            <div class="box">
+                <h3>kategori</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Pria </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> wanita </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Anak-Anak </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> best seller </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> produk-baru </a>
+            </div>
+
+            <div class="box">
+                <h3>link</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> beranda </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> produk </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> fitur </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> testimonial </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> kontak </a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> pesanan saya </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> akun saya </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> keranjang saya </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> produk baru </a>
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-instagram"></a>
+        </div>
+
+        <div class="credit"> &copy; copyright @ 2023 <span>Albert Laudza </span> </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
